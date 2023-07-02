@@ -1,0 +1,1 @@
+(mukhang may gustong ipahayag si kapitan tiyago) #speaker:Ibarra

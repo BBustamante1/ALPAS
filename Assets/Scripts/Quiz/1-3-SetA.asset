@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89591bb2fee0243498af9921e62808bf, type: 3}
+  m_Name: 1-3-SetA
+  m_EditorClassIdentifier: 
+  categoryName: Kabanata 1-3 Set A
+  questions:
+  - questionInfo: Siya ang naghanda ng isang piging bilang pasasalamat sa mahal na
+      birhen para sa maluwalhating pagbabalik ni Crisostomo galing Europa.
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Kapitan Tiago
+    - Padre Damaso
+    - Tinyente Guevarra
+    - Elias
+    correctAns: Kapitan Tiago
+    triva: Matatagpuan ito sa unang kabanata ng nobela, Kilala rin bilang maimpluwensyang
+      negosyante sa Bayan ng San Diego at Ama ni Maria Clara.
+  - questionInfo: Ang kalye sa Binondo, na tinatawag ngayong Juan Luna, kung saan
+      matatagpuan ang bahay ni Kapitan Tiago.
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Anluwage
+    - San Diego
+    - San Laurenti
+    - De Dios
+    correctAns: Anluwage
+    triva: Ang Kalye Anluwage ay tinatawag ngayong Juan Luna Street kung saan ditomatatagpuan
+      ang bahay ni Kapitan Tiyago.
+  - questionInfo: Kabiyak ni Donya Victorina ay si _______?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Don Rafael
+    - Don Tiburcio
+    - Tenyente Guevarra
+    - Kapitan Tiago
+    correctAns: Don Tiburcio
+    triva: Bukod sa nobya ito ni Donya Victorina, Si Don Tiburcio ay kilala rin sa
+      pagiging utal nito kung magsalita at sa kanyang pagiging mukhang may edad sa
+      nobela.
+  - questionInfo: Sa hapunan, hinamak niya ang mga ginawa at naranasan ni Crisostomo
+      sa Europa.
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Padre Salvi
+    - 'Donya Victorina '
+    - Padre Damaso
+    - Padre Sibyla
+    correctAns: Padre Damaso
+    triva: ': Si Padre Damaso ay kilala din sa pagiging isang aroganteng prayle.
+      Siya ang sumisimbolo sa katiwalian at kasamaan ng mga prayle noong unang panahon.'
+  - questionInfo: Ang mga tawag ng mga Espanyol sa mga katutubong Pilipino.
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Intsik
+    - Indio
+    - Indigo
+    - Pinoy
+    correctAns: Indio
+    triva: Alam nyo ba na ito ang tawag sa mga taong orihinal na nakatira at pinanganak
+      sa isang lugar kumbaga katutubo o native.
+  - questionInfo: Ang tawag sa magkabilang dulo ng mesa.
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Dulo
+    - Kubyertos
+    - Kabisera
+    - Alpasan
+    correctAns: Kabisera
+    triva: Ang kadalasang umuupo sa puwestong ito ay ang may pinakamataas na posisyon
+      / awtoridad sa isang pamilya o grupo.
+  - questionInfo: Ang binatang dumalo mula sa Europa upang makisalo sa pagtitipon
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Elias
+    - Andres
+    - Crisostomo
+    - Crispin
+    correctAns: Crisostomo
+    triva: Alam nyo ba na ang kumpletong pangalan ni Ibarra sa nobela ay Juan Crisostomo
+      Ibarra y Magsalin. Makalipas ang pitong taon sa Europa ay muli siyang bumalik
+      sa kanyang inang bayan.
+  - questionInfo: Kilala bilang ama ni Crisostomo Ibarra ay si _____
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Kapitan Tiago
+    - Don TIburcio
+    - Don Rafael
+    - Don Belle
+    correctAns: Don Rafael
+    triva: Kilala rin si Don Rafael sa nobela bilang isa sa mga makapangyarihan at
+      mayamang indibidwal na may mahalagang simbolismo sa kweto ng Noli Me Tangere.
+  - questionInfo: Taong kalaban ng mga prayle o ng reihiyong Katoliko Romano.
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Sibilyan
+    - Erehe
+    - Pilibustero
+    - Liberal
+    correctAns: Erehe
+    triva: Nakasaad rin dito na ang pagiging erehe ay ang mga taong may ibang paniniwala
+      at salungat sa turo ng simbahang katoliko noong panahon.
+  - questionInfo: Taong kalaban ng pamahalaan
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Sibilyan
+    - Liberal
+    - Erehe
+    - Pilibustero
+    correctAns: Pilibustero
+    triva: Ang pilibustero naman ay tumutukoy sa mga tao mga na sumasali sa mga himagsikan
+      o pagrerebelde kalimitang may kaugnayan sa paglaban sa pamahalaan.

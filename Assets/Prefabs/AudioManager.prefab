@@ -1,0 +1,784 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7878431644313520453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7878431644313520455}
+  - component: {fileID: 7878431644313520454}
+  - component: {fileID: 5353531608337125997}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7878431644313520455
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7878431644313520453}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: -14.106, y: 0.0043523707, z: -13.974131}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7878431644313520454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7878431644313520453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51d329e0d03037d4189c714fa2b63df4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffectsMixerGroup: {fileID: 2660855571186012659, guid: 8db28747ad771404fba59dfa492c2b08, type: 2}
+  sounds:
+  - audioTypes: 0
+    name: DV_state1_2
+    clip: {fileID: 8300000, guid: 9fed25bba432f3a41be2e9fa1717bb1b, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: DV_state0_0
+    clip: {fileID: 8300000, guid: ecd6ac8ebdae14848adffe4730145460, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: DV_state1_0
+    clip: {fileID: 8300000, guid: b50d1d20a49ff64489da23c98367d193, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: GL_state3_5
+    clip: {fileID: 8300000, guid: a7f0000111b42ac4c8015c9a61d02ffa, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: A1_state0_0
+    clip: {fileID: 8300000, guid: 956b1bcc3b5b01a4ba8f084f81731b52, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: A1_state0_1
+    clip: {fileID: 8300000, guid: aae58ccf06761c341adf888b67dd68b9, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: A2_state0_0
+    clip: {fileID: 8300000, guid: 412c9a61e506042498b87db8535e2ff1, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: A2_state0_1
+    clip: {fileID: 8300000, guid: f2ee8f6c726b6bb4bb0176197fc6b16e, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: A2_state0_2
+    clip: {fileID: 8300000, guid: 1168469afe45d5f4b8080be5af2172a1, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: A2_state0_3
+    clip: {fileID: 8300000, guid: 52200b47f51c43649a4a3a6edd303e36, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: A2_state0_4
+    clip: {fileID: 8300000, guid: bca03787bd70a4b47bb8508b2a7bb240, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: A2_state0_5
+    clip: {fileID: 8300000, guid: debda7b1b8cbbd5469d24c6a7a076e14, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PlacePlate
+    clip: {fileID: 8300000, guid: 40d8e5daa59208141b4b9300f320f045, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: TG_state2_0
+    clip: {fileID: 8300000, guid: a3112886df463624ca95aaea12148e3f, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: TG_state1_0
+    clip: {fileID: 8300000, guid: 4213230c35674004e94df58cbfe9bc10, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: TG_state2_2
+    clip: {fileID: 8300000, guid: 258ce82c0506ad345929ff3a4343bd6d, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: TG_state1_3
+    clip: {fileID: 8300000, guid: e1f3b59704587df439814ec8e6bdf45c, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: TG_state1_4
+    clip: {fileID: 8300000, guid: d7ad42df6d8813d4fb24ef4bddb1fd0b, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: TG_state1_5
+    clip: {fileID: 8300000, guid: d1f4286216eb85c46bbafffcb8a2c201, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: KT_state2_0
+    clip: {fileID: 8300000, guid: 2580b317a2b4445468f5e7ef9c6d6121, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: KT_state0_3
+    clip: {fileID: 8300000, guid: 15643a0d030eda34a87f9271049d7ad4, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_choice2_6
+    clip: {fileID: 8300000, guid: fa42b0c87b2986a4ea7cf1761f3ef048, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: KT_state0_0
+    clip: {fileID: 8300000, guid: 1812a4c2011d2f94db623ce349da788e, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: KT_state3_1
+    clip: {fileID: 8300000, guid: f286a08899e89214aad2d8b105313491, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: C3npc_state0_0
+    clip: {fileID: 8300000, guid: 3e1bb9fe1b0a35f41a7d4ae56dce096a, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: C3npc_state0_1
+    clip: {fileID: 8300000, guid: a34ce005ec07fd7408536f6e444f487f, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: GL_state1_1
+    clip: {fileID: 8300000, guid: 50006d4fc084fdc48b793b3d5cc9d566, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: DV_state1_1
+    clip: {fileID: 8300000, guid: 88e29e64dc331c14e996a941780f0160, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: GL_state1_8
+    clip: {fileID: 8300000, guid: a13bfbcd9226bde498e32ebc0c9d489b, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_state2_1
+    clip: {fileID: 8300000, guid: 183038c9e6bca11469314568fd3c705a, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_state2_2
+    clip: {fileID: 8300000, guid: fd79898f13428b74cb98ba04d106579d, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: GL_state3_4
+    clip: {fileID: 8300000, guid: c84ccd088d1c3224d9ae4ea8741cacac, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: GL_state1_3
+    clip: {fileID: 8300000, guid: 485285fa925cd9b42b67fcd6fcbb399d, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: DV_state1_3
+    clip: {fileID: 8300000, guid: 322aa64fe3f8add4b9d3858d0eecdcbe, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: GL_state3_3
+    clip: {fileID: 8300000, guid: 96cfa76047407f04d88dfceaadbe0e45, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: GL_state3_1
+    clip: {fileID: 8300000, guid: 757f5266163174e4ebfb0fe84633097f, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: GL_state3_6
+    clip: {fileID: 8300000, guid: d3e29579dd948e24f9b29aa948d9a251, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_state2_4
+    clip: {fileID: 8300000, guid: 4d34dbe7a24fd5e43a6dc6354c89b0f0, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: KT_state3_0
+    clip: {fileID: 8300000, guid: 258274ed1a50cb94582093758867cf5e, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PS_state1_1
+    clip: {fileID: 8300000, guid: 4552144d40322214d92929d3274c01e4, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: KT_state1_3
+    clip: {fileID: 8300000, guid: bb1afa7737fb8b245bea39799f8e18c9, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: KT_state2_1
+    clip: {fileID: 8300000, guid: e5957982f310a5948858e1e0682aa03e, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: KT_state0_4
+    clip: {fileID: 8300000, guid: 76f7b95c99bef944e97c66c0407ed1b1, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: KT_state1_4
+    clip: {fileID: 8300000, guid: bfaee0a717e61564993a11f0674e5ff0, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: KT_state0_1
+    clip: {fileID: 8300000, guid: 002cabcf74f31224e9910f9b39d0e269, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: KT_state0_2
+    clip: {fileID: 8300000, guid: df60beb0a5de98c4997ba631d4cb2e2f, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_choice2_8
+    clip: {fileID: 8300000, guid: 684cfa366f6c79345a4f29a1992a7b84, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_choice1_6
+    clip: {fileID: 8300000, guid: cddc826f5db68e947b07b51a72606dfc, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: KT_state1_0
+    clip: {fileID: 8300000, guid: c0ea4c51cdddaa9469e76993e1ae0dac, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: KT_state1_1
+    clip: {fileID: 8300000, guid: 770ef3c479834af4c9750383a052a4f9, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: KT_state1_2
+    clip: {fileID: 8300000, guid: c3e30f804d295fa42b9f602fee100c3f, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_state0_3
+    clip: {fileID: 8300000, guid: ffff9199a5368a246a6dd0f592e12873, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PS_state1_0
+    clip: {fileID: 8300000, guid: f47ec99b2826e6946a23f247419e1e54, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PS_state1_2
+    clip: {fileID: 8300000, guid: 5df32567c35b94540b5d8b6625c9a12c, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: GL_state1_0
+    clip: {fileID: 8300000, guid: a7e4e2eeff0a10545acfbd97ec20baf6, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: GL_state1_2
+    clip: {fileID: 8300000, guid: ec86c897a57b1384a97a8a4b6cb76f39, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: GL_state3_0
+    clip: {fileID: 8300000, guid: 27624ad158aabbe42b4663e3eb579122, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: GL_state3_2
+    clip: {fileID: 8300000, guid: 7373262dec7feb9409ffbbe30855562d, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: GL_state3_7
+    clip: {fileID: 8300000, guid: 93dcc52af286db24aa678431e1c1d408, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: TI_state0_1
+    clip: {fileID: 8300000, guid: d6e5e894222298b43b09eb92ca7401c8, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: TI_state0_2
+    clip: {fileID: 8300000, guid: 556bd9a58e3240f4886495b2754d6b85, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: Ksmby_state0_0
+    clip: {fileID: 8300000, guid: 8885e4ef2c8b1e04fbe032b48669e8eb, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: Ksmby_state0_1
+    clip: {fileID: 8300000, guid: 406f968b0a12e244fb84bef239f1c537, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: Ksmby_state2_0
+    clip: {fileID: 8300000, guid: 7dde5a95cbd6a2b478621e4ad6755b2f, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_state0_0
+    clip: {fileID: 8300000, guid: f3de6f51974123e44b47e3d918eb11ee, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_state0_1
+    clip: {fileID: 8300000, guid: 34aeed7fe1f052442803115d7fd4b7ae, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_state0_2
+    clip: {fileID: 8300000, guid: 6fbd9a19fcb118a4e9f5b0c546353e43, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_state0_4
+    clip: {fileID: 8300000, guid: a3baa5637016fa74c96a75c6a789d59a, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_state0_5
+    clip: {fileID: 8300000, guid: 03f86bf524e623846a09a7456961ca69, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_state2_3
+    clip: {fileID: 8300000, guid: d89575f99f8327440a832034f688ce0d, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_state3_0
+    clip: {fileID: 8300000, guid: fc2dfb67a26b9b84496bf12d17b21f08, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_state4_0
+    clip: {fileID: 8300000, guid: 36df8de4c66da484a8acdab18c50ef70, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_state5_0
+    clip: {fileID: 8300000, guid: c4c1defb501fa1b4aaba3041d5d5d56b, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_state5_1
+    clip: {fileID: 8300000, guid: 7d7eff3b8067a5247827f089acb68d69, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: A1_state0_3
+    clip: {fileID: 8300000, guid: 26c8a2124dd830e4d98ac2a15b77dc2a, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: A1_state0_2
+    clip: {fileID: 8300000, guid: ad68c8a45fd6d754aa19e2aee1aac5a1, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: C2npc_state0_2
+    clip: {fileID: 8300000, guid: c869e40e3763c6842ab0b3496c3e79bf, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_choice1_1
+    clip: {fileID: 8300000, guid: a3a5f9227131306429970c5a3855df89, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_choice1_2
+    clip: {fileID: 8300000, guid: a2a280c330207774c8af608ef0572e0f, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_choice1_4
+    clip: {fileID: 8300000, guid: 6d74e2934985325438aaa103834a9f69, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_choice1_5
+    clip: {fileID: 8300000, guid: 945b75cc329436c42b36143c016f8301, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_choice2_0
+    clip: {fileID: 8300000, guid: 8585746c2471c7445bf1ad2a28c85a26, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_choice2_1
+    clip: {fileID: 8300000, guid: e7a5e9b9cb84a5f4ea2a580597ba167b, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_choice2_4
+    clip: {fileID: 8300000, guid: 8a594b0cd1063144cb3f61fb9acecebc, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_choice2_5
+    clip: {fileID: 8300000, guid: d01ac15e3d580204c9334f8a3666b23d, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_choice2_7
+    clip: {fileID: 8300000, guid: 923094e69a3ebff4eab16db1e49b448c, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: C2npc_state0_0
+    clip: {fileID: 8300000, guid: 77f202ace34fd8f4082fa0600db38a22, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: C2npc_state0_4
+    clip: {fileID: 8300000, guid: 9925c10a70e4ded47a68d67382432d94, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: TG_state2_1
+    clip: {fileID: 8300000, guid: c8c6b0409261a454bbfbdd78f6268c89, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: TG_state2_3
+    clip: {fileID: 8300000, guid: 2fe329f922ec5004795fd9bab58eb1e5, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_choice2_9
+    clip: {fileID: 8300000, guid: 836c74039c7ba814095d6c95fcfcb3c4, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: TG_state1_1
+    clip: {fileID: 8300000, guid: ffab77ff2bcbcee47957df0a776cb586, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: C2npc_state0_1
+    clip: {fileID: 8300000, guid: 0b089a2c138dd8645a30860aa7110a9d, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: C2npc_state0_3
+    clip: {fileID: 8300000, guid: f154956298ab8ef4793537df356f43a4, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: C3npc_state0_2
+    clip: {fileID: 8300000, guid: 1c2644c34835edf4a8ea5afbe9f19167, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: GL_state3_8
+    clip: {fileID: 8300000, guid: a13bfbcd9226bde498e32ebc0c9d489b, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: Correct Answer
+    clip: {fileID: 8300000, guid: 98fbdb686a244b64598e2b7d2300adef, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: Wrong Answer
+    clip: {fileID: 8300000, guid: a9227fa259acdd84a8e206a33ef9bc86, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: PD_choice2_3
+    clip: {fileID: 8300000, guid: 53d1508743a321c48aa3e68dc3c189c6, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: ConfirmAudio
+    clip: {fileID: 8300000, guid: dacf146d867d0f54d80c799a36b42450, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: BackAudio
+    clip: {fileID: 8300000, guid: 9040c730196a78043b0716776e5f38b6, type: 3}
+    volume: 1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+--- !u!114 &5353531608337125997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7878431644313520453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40505eec5b47774da6c1e8bdbd59941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicMixerGroup: {fileID: 4364204146571525606, guid: 8db28747ad771404fba59dfa492c2b08, type: 2}
+  music:
+  - audioTypes: 0
+    name: pianoBGMUSIC
+    clip: {fileID: 8300000, guid: 6f67c4eea9ef5d947b90ce86965c24cc, type: 3}
+    volume: 1
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - audioTypes: 0
+    name: menuBGMUSIC
+    clip: {fileID: 8300000, guid: bda46d89eeec6c84fbb73567a493c277, type: 3}
+    volume: 1
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}

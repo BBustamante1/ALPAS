@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89591bb2fee0243498af9921e62808bf, type: 3}
+  m_Name: 1-3-SetB
+  m_EditorClassIdentifier: 
+  categoryName: Kabanata 1-3 Set B
+  questions:
+  - questionInfo: Dating Kura Paroko ng San Diego
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 'Padre Damaso '
+    - Padre Salvi
+    - Padre Sibyla
+    - Padre Burgos
+    correctAns: 'Padre Damaso '
+    triva: Bukod sa katotohanang dati siyang kura paroko ng bayan ng San Diego, Marami
+      pa kayong matutuklasan na lihim sa kanyang pagkatao sa mga susunod na kabanata.
+  - questionInfo: Bakit binalaan ng Tenyente ng guardia civil si Padre Damaso na
+      makararating ang kanyang ginawa sa Kapitan Heneral?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Dahil sa pagsasabi ni Padre Damaso ng kawalang galang na salita sa Kapitan
+      Heneral
+    - Dahil sa kasalanan nito ilang taon makalipas ang nangyari sa hapunan
+    - Dahil sa pagiging kura paroko nito
+    - 'Wala sa nabanggit '
+    correctAns: Dahil sa pagsasabi ni Padre Damaso ng kawalang galang na salita sa
+      Kapitan Heneral
+    triva: Dahil sa pagsasabi ni Padre Damaso ng kawalang galang na salita sa Kapitan
+      Heneral.
+  - questionInfo: Reaksyon ni Padre Damaso ng sabihin ni Crisostomo na siya ay ang
+      matalik na kaibigan ng ama nito.
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Itinanggi ng pari ang pakikipagkaibigan sa ama nito
+    - Natuwa ito at nagkwento ng masasayang alaala kasama ang kanyang ama
+    - Binago ang paksa ng paguusap
+    - Wala sa nabanggit
+    correctAns: Itinanggi ng pari ang pakikipagkaibigan sa ama nito
+    triva: Itinanggi ng pari ang pakikipagkaibigan sa ama nito
+  - questionInfo: Paano ang ginawang pamamagitan ni Padre Sibyla upang hindi humantong
+      sa lubusang pagkakagalit sina Padre Damaso at ang tenyente?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Inawat nya ang dalawa
+    - Pinagsawalang bahala na lamang nila
+    - Nagpatugtog ng malakas
+    - 'Tinigil ang salo salo '
+    correctAns: Inawat nya ang dalawa
+    triva: Inawat nya ang dalawa
+  - questionInfo: Kaugalian sa Alemanya na ipinakita ni Crisostomo Ibarra.
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Magmano sa nakakatanda at ugaliing ipagpag ang sapin sa paa sa pintuan
+    - Kung walang magpapakilala sa isang panauhin , siya mismo ang maunang magpakilala
+      sa sarili
+    - Halikan ang kamay ng mga bisita
+    - 'Dumiretso sa Hapag '
+    correctAns: Kung walang magpapakilala sa isang panauhin , siya mismo ang maunang
+      magpakilala sa sarili
+    triva: Kung walang magpapakilala sa isang panauhin, siya mismo ang maunang magpakilala
+      sa sarili
+  - questionInfo: Buong pangalan ni Kapitan Tiago.
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Don Santiago Delos Santos
+    - Don Santiago Delos Reyes
+    - Don Santiago De Alemanya
+    - Don Santiago Delos signo
+    correctAns: Don Santiago Delos Santos
+    triva: Alam nyo ba na ang karakter ni Kapitan Tiago ay mayroon ding malaking
+      simbolismo sa panahon ni Rizal? Dahil sinisimbolo niya ang mga pilipinong mayayaman
+      na handing umapi ng kapwa Pilipino para sa sariling impluwensya o kapangyarihan
+      at mas malalaman natin ito sa mga susunod na kabanata.
+  - questionInfo: Ano ang ibig sabihin ng pagupo sa kabisera sa hapag kainan
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Pinaka mataas sa lahat
+    - Ama ng pamilya
+    - Heneral ng Pamahalaan
+    - Lahat ng nabanggit
+    correctAns: Lahat ng nabanggit
+    triva: Ang umuupo rin sa dalawang upuan na ito ay ang may pinaka mataas na posisyon
+      o awtoridad sa isang pamilya o grupo.
+  - questionInfo: Isa sa nagsawalang bahala matapos umalis ang teniente sa hapunan
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Donya Victorina
+    - Donya Consolacion
+    - Tiya Isabel
+    - Maria Clara
+    correctAns: Donya Victorina
+    triva: Alam nyo ba na nagpapanggap lamang na mestiza si Donya Victorina at matagal
+      na pinapangarap makapangasawa ng isang Espanyol? Ngayon alam mo na!
+  - questionInfo: Nagalit si Padre Damaso sa kalagitnaan ng hapunan sa kadahilanan
+      ng ano?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Sapagkat masyadong maingay ang musika
+    - 'Sapagkat kulang ang kubyertos '
+    - Sapagkat Leeg at pakpak lamang ng manok ang nasa kanyang tinola
+    - Sapagkat kaunti ang sabaw ng tinola nito
+    correctAns: Sapagkat Leeg at pakpak lamang ng manok ang nasa kanyang tinola
+    triva: Sapagkat Leeg at pakpak lamang ng manok ang nasa kanyang tinola
+  - questionInfo: Ang Pamagat ng Kabanata 3
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Ang Tinola
+    - Ang Hapag
+    - Ang Hapunan
+    - Si Crisostomo Ibarra
+    correctAns: Ang Hapunan
+    triva: Hapunan ang ipinamagat rito sapagkat ito na ang eksena kung saan matutunghayan
+      natin ang mabibigat na sagutan at tensyon sa kalagitnaan ng salu-salo.
